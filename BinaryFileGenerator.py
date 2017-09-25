@@ -17,5 +17,4 @@ with open(fileToOpen, 'wb') as output:
       # Create a random sequence of 16 bits, with the first 12 all being set to 1
       dataToWrite = 1048560 + random.randint(0, 15)
       output.write(struct.pack("=i", dataToWrite))
-      output.write("\n")
 
