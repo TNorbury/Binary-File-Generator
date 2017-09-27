@@ -4,7 +4,7 @@ import struct
 fileToOpen = "binaryData"
 
 # The max file size should be in kb
-maxFileSize = 1024
+maxFileSize = 20480 * 4
 
 # The number of line (chunks of data) is equal to the number of bits in the file / 16
 numLines = (maxFileSize * 1024) / 16
